@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "sdkVersion": "25.0.0",
+    "name": "android-splash-bug",
+    "version": "1.0.0",
+    "privacy": "unlisted",
+    "slug": "androidSplashBug",
+    "splash": {
+      "backgroundColor": "#f4f4f4",
+      "resizeMode": "contain",
+      "image": "./splash.png"
+    },
+    "loading": {
+      "icon": "./splash.png",
+      "hideExponentText": true
+    },
+    "android": {
+      "package": "com.example.androidSplashBug",
+      "icon": "./splash.png",
+      "versionCode": 1,
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+        "com.google.android.c2dm.permission.RECEIVE"
+      ]      
+    }
+  }
+}
